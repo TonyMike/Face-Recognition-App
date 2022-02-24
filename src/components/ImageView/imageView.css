@@ -1,0 +1,10 @@
+.imgView{
+    width: 320px;
+    height: 320px;
+    z-index: 5;
+
+}
+img{
+    width: inherit;
+    height: inherit;
+}
