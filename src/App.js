@@ -8,6 +8,13 @@ import ImageView from './components/ImageView/ImageView'
 import SignIn from './components/SignIn/SignIn'
 import Register from './components/Register/Register'
 
+
+const  Clarifai = require 'clarifai'
+
+
+const app = new Clarifai.App({
+  apiKey: '432a73c567414c068de41f4b67a98771'
+ });
 class App extends Component {
   constructor () {
     super()
@@ -18,6 +25,7 @@ class App extends Component {
       isSignedIn: false
     }
   }
+
   onInputChange = e => {
     this.setState({ url: e.target.value })
   }
