@@ -9,7 +9,7 @@ import SignIn from './components/SignIn/SignIn'
 import Register from './components/Register/Register'
 
 
-const  Clarifai = require 'clarifai'
+const  Clarifai = require 'clarifai';
 
 
 const app = new Clarifai.App({
